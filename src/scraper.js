@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { analyzeQAStructure } from './utils/utilsScraper.js';
+import QACrawler from './utils/utilsScraper.js';
 
 const sleep = (ms) => {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -13,7 +13,9 @@ const crawlAxios = async (url) => {
                 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
             }
         });
-        return analyzeQAStructure(response.data, url);
+        const crawler = new QACrawler();
+        const results = crawler.analyzeQAStructure(response.data, url);
+        return results;
     } catch (error) {
         console.error(`Erreur lors du crawl de ${url}:`, error.message);
         return {

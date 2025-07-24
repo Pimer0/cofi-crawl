@@ -210,4 +210,4 @@ class QACrawler {
         return report;
     }
 }
-export default {QACrawler}
+export default QACrawler

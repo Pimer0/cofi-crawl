@@ -8,12 +8,12 @@
   "details": [
     {
       "url": "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/assurance.html",
-      "error": "analyseQA is not defined",
+      "error": "cheerio.load is not a function",
       "questions": []
     },
     {
       "url": "https://www.cofidis.fr/fr/credit-auto/credit-voiture-electrique/combien-emprunter.html",
-      "error": "analyseQA is not defined",
+      "error": "cheerio.load is not a function",
       "questions": []
     }
   ]
