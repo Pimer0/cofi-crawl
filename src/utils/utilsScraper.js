@@ -1,5 +1,5 @@
 const puppeteer = import('puppeteer');
-const cheerio = import('cheerio');
+import * as cheerio from 'cheerio';
 const axios = import('axios');
 
 class QACrawler {

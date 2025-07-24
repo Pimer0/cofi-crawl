@@ -1,20 +1,91 @@
 {
   "summary": {
     "totalUrls": 2,
-    "urlsWithErrors": 2,
-    "totalQuestions": 0,
-    "totalValidQuestions": 0
+    "urlsWithErrors": 0,
+    "totalQuestions": 6,
+    "totalValidQuestions": 6
   },
   "details": [
     {
       "url": "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/assurance.html",
-      "error": "cheerio.load is not a function",
-      "questions": []
+      "totalQuestions": 6,
+      "validQuestions": 6,
+      "questions": [
+        {
+          "index": 1,
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Un crédit mariage, qu’est-ce que c’est ?",
+            "questionElement": "h2",
+            "answerText": "Un crédit mariage est un crédit à la consommation affecté ou non, proposé par un établissement de crédit, ou une banque, qui permet de financer tout ou partie des dépenses liées à votre mariage. Le montant emprunté peut varier selon vos besoins, votre situation ainsi que votre budget global.\n\nTandis que certaines personnes choisissent de l'utiliser afin de payer la totalité de la cérémonie, d'autres souscrivent un financement en complément de leurs fonds propres. La durée de remboursement est généralement comprise entre 12 et 60 mois, avec une mensualité fixe.",
+            "answerLength": 566
+          }
+        },
+        {
+          "index": 2,
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "L’assurance emprunteur est-elle ou non obligatoire ?",
+            "questionElement": "h2",
+            "answerText": "Contrairement à un prêt immobilier, l’assurance emprunteur n’est pas légalement obligatoire pour un emprunt destiné à financer un mariage. Toutefois, de nombreux organismes financiers ou établissements prêteurs peuvent la proposer ou même la recommander, notamment lorsque le montant emprunté est important.\n\nCette assurance vous permet notamment d'être couvert(e) en cas d’imprévu (incapacité, invalidité ou encore décès). De fait, si vous ne pouvez plus honorer vos mensualités, elle engage l’assureur à prendre le relai des remboursements pour vous.",
+            "answerLength": 552
+          }
+        },
+        {
+          "index": 3,
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Dans quels cas est-elle utile ?",
+            "questionElement": "h2",
+            "answerText": "Prenons un exemple : Julie et Thomas souscrivent un crédit de 15 000 € pour leur mariage avec une durée de remboursement de 48 mois. Si Thomas venait à perdre son emploi ou tomber gravement malade, l’assurance pourrait assurer le remboursement total ou partiel du crédit, ce qui éviterait des difficultés financières au couple.\n\nC’est la raison pour laquelle, même si elle n’est pas imposée, une assurance de crédit demeure une solution rassurante pour les projets de grande ampleur. Et si vous avez des questions sur ce point, le conseiller en charge de votre dossier vous expliquera les conditions et les garanties possibles en fonction de votre profil et de vos revenus.",
+            "answerLength": 673
+          }
+        },
+        {
+          "index": 4,
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quels sont les frais à prévoir ?",
+            "questionElement": "h2",
+            "answerText": "En plus de la somme empruntée, il faut également tenir compte des éventuels frais de dossier (aucuns frais de dossier chez Cofidis), du taux d'intérêt ainsi que du coût de l’assurance si vous décidez d’y souscrire.",
+            "answerLength": 214
+          }
+        },
+        {
+          "index": 5,
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment choisir la meilleure assurance ?",
+            "questionElement": "h2",
+            "answerText": "Si vous optez pour une couverture d’assurance, comparez les offres. Certaines compagnies incluent des garanties plus larges (perte d'emploi, hospitalisation, invalidité partielle, par exemple). Il est donc très important d’être bien informé(e) afin de faire un choix en adéquation avec votre situation personnelle. Il est aussi possible de passer par un service de simulation en ligne pour obtenir une première estimation, avant de rencontrer un conseiller si vous le désirez.",
+            "answerLength": 476
+          }
+        },
+        {
+          "index": 6,
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quelles sont les démarches clés ?",
+            "questionElement": "h2",
+            "answerText": "Établissez un budget réaliste\nComparez les offres de crédits et les taux\nÉvaluez la pertinence d’une assurance\nVérifiez les conditions du contrat\n\nConcrètement, si vous souhaitez financer votre mariage sereinement, une assurance peut représenter un bon filet de sécurité, bien qu’elle ne soit pas obligatoire. À vous de voir si elle est nécessaire en fonction de votre profil, de votre projet ainsi que de la solution de financement choisie.",
+            "answerLength": 441
+          }
+        }
+      ],
+      "timestamp": "2025-07-24T15:29:33.625Z"
     },
     {
       "url": "https://www.cofidis.fr/fr/credit-auto/credit-voiture-electrique/combien-emprunter.html",
-      "error": "cheerio.load is not a function",
-      "questions": []
+      "totalQuestions": 0,
+      "validQuestions": 0,
+      "questions": [],
+      "timestamp": "2025-07-24T15:29:35.049Z"
     }
   ]
 }
