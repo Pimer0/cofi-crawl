@@ -210,43 +210,4 @@ class QACrawler {
         return report;
     }
 }
-
-// Exemple d'utilisation
-async function main() {
-    const crawler = new QACrawler();
-    
-    try {
-        const urls = [
-            'https://example.com/faq',
-            'https://example.com/questions'
-            // Ajoutez vos URLs ici
-        ];
-
-        // Crawl avec Axios (plus rapide)
-        const results = await crawler.crawlMultipleUrls(urls, false);
-        
-        // Génération du rapport
-        const report = crawler.generateReport(results);
-        
-        // Sauvegarde optionnelle en JSON
-        const fs = require('fs');
-        fs.writeFileSync('crawl-report.json', JSON.stringify(report, null, 2));
-        
-        console.log('\nRapport sauvegardé dans crawl-report.json');
-        
-    } catch (error) {
-        console.error('Erreur:', error);
-    } finally {
-        await crawler.close();
-    }
-}
-
-// Export pour utilisation en module
-// module.exports = QACrawler;
-
-// Exécution si appelé directement
-// if (require.main === module) {
-//     main();
-// }
-
 export default {QACrawler}
