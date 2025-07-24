@@ -1,0 +1,20 @@
+{
+  "summary": {
+    "totalUrls": 2,
+    "urlsWithErrors": 2,
+    "totalQuestions": 0,
+    "totalValidQuestions": 0
+  },
+  "details": [
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/assurance.html",
+      "error": "analyseQA is not defined",
+      "questions": []
+    },
+    {
+      "url": "https://www.cofidis.fr/fr/credit-auto/credit-voiture-electrique/combien-emprunter.html",
+      "error": "analyseQA is not defined",
+      "questions": []
+    }
+  ]
+}
