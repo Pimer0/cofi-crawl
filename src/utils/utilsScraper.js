@@ -1,24 +1,7 @@
-const puppeteer = import('puppeteer');
 import * as cheerio from 'cheerio';
 import axios from 'axios';
 
 class QACrawler {
-    constructor() {
-        this.browser = null;
-    }
-
-    async init() {
-        this.browser = await puppeteer.launch({ 
-            headless: true,
-            args: ['--no-sandbox', '--disable-setuid-sandbox']
-        });
-    }
-
-    async close() {
-        if (this.browser) {
-            await this.browser.close();
-        }
-    }
 
     // Méthode utilisant Axios + Cheerio (plus rapide pour sites statiques)
     async crawlWithAxios(url) {
@@ -41,6 +24,7 @@ class QACrawler {
         const questions = [];
         
         // Recherche des éléments avec la structure Q&A
+        // TODO: redefinir la question car mal ciblé, et les valides toutes 
         $('[itemtype="https://schema.org/Question"]').each((index, element) => {
             const $question = $(element);
             
@@ -71,9 +55,15 @@ class QACrawler {
 
     validateQuestionStructure($question, questionData) {
         // Vérification des attributs requis sur l'élément Question
+        const divParent = $question.parentsUntil('div');
         const itemScope = $question.attr('itemscope');
         const itemProp = $question.attr('itemprop');
         const itemType = $question.attr('itemtype');
+
+        if (divParent === undefined) {
+            questionData.issues.push('Pas de div parent trouvé pour la question');
+            questionData.isValid = false;
+        }
 
         if (itemScope === undefined) {
             questionData.issues.push('Attribut itemscope manquant sur Question');
