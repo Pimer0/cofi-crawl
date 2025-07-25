@@ -1,6 +1,6 @@
 const puppeteer = import('puppeteer');
 import * as cheerio from 'cheerio';
-const axios = import('axios');
+import axios from 'axios';
 
 class QACrawler {
     constructor() {
@@ -17,22 +17,6 @@ class QACrawler {
     async close() {
         if (this.browser) {
             await this.browser.close();
-        }
-    }
-
-    // Méthode utilisant Puppeteer (pour sites avec JS)
-    async crawlWithPuppeteer(url) {
-        const page = await this.browser.newPage();
-        
-        try {
-            await page.goto(url, { waitUntil: 'networkidle2' });
-            const html = await page.content();
-            return this.analyzeQAStructure(html, url);
-        } catch (error) {
-            console.error(`Erreur lors du crawl de ${url}:`, error.message);
-            return { url, error: error.message, questions: [] };
-        } finally {
-            await page.close();
         }
     }
 
@@ -161,19 +145,13 @@ class QACrawler {
     }
 
     // Méthode pour crawler plusieurs URLs
-    async crawlMultipleUrls(urls, usePuppeteer = false) {
+    async crawlMultipleUrls(urls) {
         const results = [];
-        
-        if (usePuppeteer && !this.browser) {
-            await this.init();
-        }
 
         for (const url of urls) {
             console.log(`Crawl de: ${url}`);
             
-            const result = usePuppeteer 
-                ? await this.crawlWithPuppeteer(url)
-                : await this.crawlWithAxios(url);
+            const result = await this.crawlWithAxios(url);
                 
             results.push(result);
             
