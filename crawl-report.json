@@ -1,8 +1,8 @@
 {
   "summary": {
     "totalUrls": 2,
-    "urlsWithErrors": 0,
-    "totalQuestions": 6,
+    "urlsWithErrors": 7,
+    "totalQuestions": 13,
     "totalValidQuestions": 6
   },
   "details": [
@@ -10,82 +10,253 @@
       "url": "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/assurance.html",
       "totalQuestions": 6,
       "validQuestions": 6,
+      "notValidQuestions": 0,
       "questions": [
         {
           "index": 1,
+          "type": "schema",
           "isValid": true,
           "issues": [],
           "structure": {
             "questionTitle": "Un crédit mariage, qu’est-ce que c’est ?",
             "questionElement": "h2",
-            "answerText": "Un crédit mariage est un crédit à la consommation affecté ou non, proposé par un établissement de crédit, ou une banque, qui permet de financer tout ou partie des dépenses liées à votre mariage. Le montant emprunté peut varier selon vos besoins, votre situation ainsi que votre budget global.\n\nTandis que certaines personnes choisissent de l'utiliser afin de payer la totalité de la cérémonie, d'autres souscrivent un financement en complément de leurs fonds propres. La durée de remboursement est généralement comprise entre 12 et 60 mois, avec une mensualité fixe.",
-            "answerLength": 566
+            "answerText": "Un crédit mariage est un crédit à la consommation affecté ou non, proposé par un établissement de crédit, ou une banque, qui permet de financer tout ou partie des dépenses liées à votre mariage. Le mo...",
+            "answerElement": "div"
           }
         },
         {
           "index": 2,
+          "type": "schema",
           "isValid": true,
           "issues": [],
           "structure": {
             "questionTitle": "L’assurance emprunteur est-elle ou non obligatoire ?",
             "questionElement": "h2",
-            "answerText": "Contrairement à un prêt immobilier, l’assurance emprunteur n’est pas légalement obligatoire pour un emprunt destiné à financer un mariage. Toutefois, de nombreux organismes financiers ou établissements prêteurs peuvent la proposer ou même la recommander, notamment lorsque le montant emprunté est important.\n\nCette assurance vous permet notamment d'être couvert(e) en cas d’imprévu (incapacité, invalidité ou encore décès). De fait, si vous ne pouvez plus honorer vos mensualités, elle engage l’assureur à prendre le relai des remboursements pour vous.",
-            "answerLength": 552
+            "answerText": "Contrairement à un prêt immobilier, l’assurance emprunteur n’est pas légalement obligatoire pour un emprunt destiné à financer un mariage. Toutefois, de nombreux organismes financiers ou établissement...",
+            "answerElement": "div"
           }
         },
         {
           "index": 3,
+          "type": "schema",
           "isValid": true,
           "issues": [],
           "structure": {
             "questionTitle": "Dans quels cas est-elle utile ?",
             "questionElement": "h2",
-            "answerText": "Prenons un exemple : Julie et Thomas souscrivent un crédit de 15 000 € pour leur mariage avec une durée de remboursement de 48 mois. Si Thomas venait à perdre son emploi ou tomber gravement malade, l’assurance pourrait assurer le remboursement total ou partiel du crédit, ce qui éviterait des difficultés financières au couple.\n\nC’est la raison pour laquelle, même si elle n’est pas imposée, une assurance de crédit demeure une solution rassurante pour les projets de grande ampleur. Et si vous avez des questions sur ce point, le conseiller en charge de votre dossier vous expliquera les conditions et les garanties possibles en fonction de votre profil et de vos revenus.",
-            "answerLength": 673
+            "answerText": "Prenons un exemple : Julie et Thomas souscrivent un crédit de 15 000 € pour leur mariage avec une durée de remboursement de 48 mois. Si Thomas venait à perdre son emploi ou tomber gravement malade, l’...",
+            "answerElement": "div"
           }
         },
         {
           "index": 4,
+          "type": "schema",
           "isValid": true,
           "issues": [],
           "structure": {
             "questionTitle": "Quels sont les frais à prévoir ?",
             "questionElement": "h2",
-            "answerText": "En plus de la somme empruntée, il faut également tenir compte des éventuels frais de dossier (aucuns frais de dossier chez Cofidis), du taux d'intérêt ainsi que du coût de l’assurance si vous décidez d’y souscrire.",
-            "answerLength": 214
+            "answerText": "En plus de la somme empruntée, il faut également tenir compte des éventuels frais de dossier (aucuns frais de dossier chez Cofidis), du taux d'intérêt ainsi que du coût de l’assurance si vous décidez ...",
+            "answerElement": "div"
           }
         },
         {
           "index": 5,
+          "type": "schema",
           "isValid": true,
           "issues": [],
           "structure": {
             "questionTitle": "Comment choisir la meilleure assurance ?",
             "questionElement": "h2",
-            "answerText": "Si vous optez pour une couverture d’assurance, comparez les offres. Certaines compagnies incluent des garanties plus larges (perte d'emploi, hospitalisation, invalidité partielle, par exemple). Il est donc très important d’être bien informé(e) afin de faire un choix en adéquation avec votre situation personnelle. Il est aussi possible de passer par un service de simulation en ligne pour obtenir une première estimation, avant de rencontrer un conseiller si vous le désirez.",
-            "answerLength": 476
+            "answerText": "Si vous optez pour une couverture d’assurance, comparez les offres. Certaines compagnies incluent des garanties plus larges (perte d'emploi, hospitalisation, invalidité partielle, par exemple). Il est...",
+            "answerElement": "div"
           }
         },
         {
           "index": 6,
+          "type": "schema",
           "isValid": true,
           "issues": [],
           "structure": {
             "questionTitle": "Quelles sont les démarches clés ?",
             "questionElement": "h2",
-            "answerText": "Établissez un budget réaliste\nComparez les offres de crédits et les taux\nÉvaluez la pertinence d’une assurance\nVérifiez les conditions du contrat\n\nConcrètement, si vous souhaitez financer votre mariage sereinement, une assurance peut représenter un bon filet de sécurité, bien qu’elle ne soit pas obligatoire. À vous de voir si elle est nécessaire en fonction de votre profil, de votre projet ainsi que de la solution de financement choisie.",
-            "answerLength": 441
+            "answerText": "Établissez un budget réaliste\nComparez les offres de crédits et les taux\nÉvaluez la pertinence d’une assurance\nVérifiez les conditions du contrat\n\nConcrètement, si vous souhaitez financer votre mariag...",
+            "answerElement": "div"
           }
         }
       ],
-      "timestamp": "2025-07-25T08:59:44.770Z"
+      "detectionMethods": {
+        "schema": 6,
+        "semantic": 0
+      },
+      "timestamp": "2025-07-25T14:15:38.940Z"
     },
     {
       "url": "https://www.cofidis.fr/fr/credit-auto/credit-voiture-electrique/combien-emprunter.html",
-      "totalQuestions": 0,
+      "totalQuestions": 7,
       "validQuestions": 0,
-      "questions": [],
-      "timestamp": "2025-07-25T08:59:46.479Z"
+      "notValidQuestions": 7,
+      "questions": [
+        {
+          "index": 1,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Comment évaluer le prix de sa voiture électrique ?",
+            "questionElement": "h2",
+            "answerText": "Avant de déterminer combien emprunter, n’oubliez pas de bien prendre en compte tous les éléments liés au coût total de votre voiture.\n    Le prix du véhicule : les modèles électriques varient entre 15...",
+            "answerElement": "mixed-content"
+          }
+        },
+        {
+          "index": 2,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Quelles sont les différentes solutions de financement d’une voiture électrique ?",
+            "questionElement": "h2",
+            "answerText": "Pour vous procurer une voiture électrique, il existe plusieurs options dont les principales sont l’achat par le biais d’un crédit à la consommation, ou alors la location (LOA ou LLD). Deux grandes opt...",
+            "answerElement": "mixed-content"
+          }
+        },
+        {
+          "index": 3,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Quelles sont les caractéristiques du crédit voiture électrique Cofidis ?",
+            "questionElement": "h2",
+            "answerText": "Le crédit pour une voiture électrique est un prêt classique qui permet de devenir propriétaire immédiatement. Le montant emprunté est basé sur le prix total du véhicule et la durée de remboursement mo...",
+            "answerElement": "mixed-content"
+          }
+        },
+        {
+          "index": 4,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Est-ce que c’est intéressant de faire une LOA pour une voiture électrique ?",
+            "questionElement": "h2",
+            "answerText": "Si vous ne souhaitez pas faire de crédit en ligne pour vous acheter votre voiture électrique, vous pouvez très bien faire une LOA. La location avec option d’achat permet de rouler en voiture électriqu...",
+            "answerElement": "mixed-content"
+          }
+        },
+        {
+          "index": 5,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Comment définir le montant à emprunter selon vos finances ?",
+            "questionElement": "h2",
+            "answerText": "Le montant que vous pouvez emprunter dépend notamment de vos revenus et de votre taux d’endettement : les banques acceptent en général un endettement allant jusqu’à 33 % de vos revenus maximum.Prenons...",
+            "answerElement": "mixed-content"
+          }
+        },
+        {
+          "index": 6,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Quelles aides existent pour l’achat d’une voiture électrique",
+            "questionElement": "h2",
+            "answerText": "En plus d’un crédit électrique, certaines aides financières peuvent réduire le montant à emprunter. Pour exemple, le bonus écologique est une aide gouvernementale visant à encourager l'achat de véhicu...",
+            "answerElement": "mixed-content"
+          }
+        },
+        {
+          "index": 7,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Comment bien choisir son crédit pour une voiture électrique ?",
+            "questionElement": "h2",
+            "answerText": "Avant de signer un contrat de crédit, ne manquez pas de prendre en compte ces éléments :\n    Comparez plusieurs offres afin de trouver le meilleur taux.\n    Vérifiez bien les conditions de rembourseme...",
+            "answerElement": "mixed-content"
+          }
+        }
+      ],
+      "detectionMethods": {
+        "schema": 0,
+        "semantic": 7
+      },
+      "timestamp": "2025-07-25T14:15:40.751Z"
     }
   ]
 }
