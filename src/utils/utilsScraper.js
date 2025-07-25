@@ -282,7 +282,7 @@ class QACrawler {
 
         console.log('\n=== RAPPORT DE CRAWL ===');
         console.log(`URLs analysées: ${report.summary.totalUrls}`);
-        console.log(`URLs avec erreurs: ${report.summary.urlsWithErrors}`);
+        console.log(`Questions avec erreurs: ${report.summary.urlsWithErrors}`);
         console.log(`Total questions trouvées: ${report.summary.totalQuestions}`);
         console.log(`Questions valides: ${report.summary.totalValidQuestions}`);
         console.log(`Taux de validité: ${((report.summary.totalValidQuestions / report.summary.totalQuestions) * 100).toFixed(2)}%`);
