@@ -268,24 +268,81 @@ class QACrawler {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
 
-    // Génération d'un rapport détaillé
-    generateReport(results) {
+    // Version corrigée de la fonction foundKOUrls
+    async findKOUrls(urls) {
+        const koUrls = [];
+
+        for (const url of urls) {
+            console.log(`Vérification de: ${url}`);
+            
+            const result = await this.crawlWithAxios(url);
+            
+            // Correction: vérifier les questions NON valides
+            if (result.notValidQuestions > 0) {
+                koUrls.push({
+                    url: url,
+                    notValidQuestions: result.notValidQuestions,
+                    totalQuestions: result.totalQuestions,
+                    issues: result.questions.filter(q => !q.isValid).flatMap(q => q.issues)
+                });
+                console.log(`❌ URL avec erreurs: ${url} (${result.notValidQuestions}/${result.totalQuestions} questions avec erreurs)`);
+            } else {
+                console.log(`✅ URL OK: ${url} (${result.validQuestions} questions valides)`);
+            }
+            
+            await this.sleep(1000);
+        }
+
+        return koUrls;
+    }
+
+    // Génération d'un rapport détaillé intégrant la détection des URLs KO
+    async generateReport(results, urls = null) {
         const report = {
             summary: {
                 totalUrls: results.length,
-                urlsWithErrors: results.reduce((sum, r) => sum + (r.notValidQuestions || 0), 0),
+                urlsWithErrors: results.filter(r => (r.notValidQuestions || 0) > 0).length,
                 totalQuestions: results.reduce((sum, r) => sum + (r.totalQuestions || 0), 0),
-                totalValidQuestions: results.reduce((sum, r) => sum + (r.validQuestions || 0), 0)
+                totalValidQuestions: results.reduce((sum, r) => sum + (r.validQuestions || 0), 0),
+                totalInvalidQuestions: results.reduce((sum, r) => sum + (r.notValidQuestions || 0), 0)
             },
+            koUrls: [],
             details: results
         };
 
+        // Si des URLs sont fournies, identifier les URLs KO
+        if (urls && urls.length > 0) {
+            console.log('\n=== ANALYSE DES URLs KO ===');
+            report.koUrls = await this.findKOUrls(urls);
+        } else {
+            // Sinon, extraire les URLs KO des résultats existants
+            report.koUrls = results
+                .filter(r => (r.notValidQuestions || 0) > 0)
+                .map(r => ({
+                    url: r.url,
+                    notValidQuestions: r.notValidQuestions,
+                    totalQuestions: r.totalQuestions,
+                    issues: r.questions.filter(q => !q.isValid).flatMap(q => q.issues)
+                }));
+        }
+
         console.log('\n=== RAPPORT DE CRAWL ===');
         console.log(`URLs analysées: ${report.summary.totalUrls}`);
-        console.log(`Questions avec erreurs: ${report.summary.urlsWithErrors}`);
+        console.log(`URLs avec erreurs: ${report.summary.urlsWithErrors}`);
         console.log(`Total questions trouvées: ${report.summary.totalQuestions}`);
         console.log(`Questions valides: ${report.summary.totalValidQuestions}`);
-        console.log(`Taux de validité: ${((report.summary.totalValidQuestions / report.summary.totalQuestions) * 100).toFixed(2)}%`);
+        console.log(`Questions avec erreurs: ${report.summary.totalInvalidQuestions}`);
+        
+        if (report.summary.totalQuestions > 0) {
+            console.log(`Taux de validité: ${((report.summary.totalValidQuestions / report.summary.totalQuestions) * 100).toFixed(2)}%`);
+        }
+
+        if (report.koUrls.length > 0) {
+            console.log('\n=== URLs AVEC ERREURS ===');
+            report.koUrls.forEach(koUrl => {
+                console.log(`❌ ${koUrl.url} - ${koUrl.notValidQuestions}/${koUrl.totalQuestions} questions avec erreurs`);
+            });
+        }
 
         return report;
     }

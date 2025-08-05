@@ -1,10 +1,83 @@
 {
   "summary": {
     "totalUrls": 2,
-    "urlsWithErrors": 7,
+    "urlsWithErrors": 1,
     "totalQuestions": 13,
-    "totalValidQuestions": 6
+    "totalValidQuestions": 6,
+    "totalInvalidQuestions": 7
   },
+  "koUrls": [
+    {
+      "url": "https://www.cofidis.fr/fr/credit-auto/credit-voiture-electrique/combien-emprunter.html",
+      "notValidQuestions": 7,
+      "totalQuestions": 7,
+      "issues": [
+        "Question détectée en format sémantique - manque les données structurées schema.org",
+        "Attribut itemscope manquant sur Question",
+        "Attribut itemprop=\"mainEntity\" manquant sur Question",
+        "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+        "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+        "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+        "Attribut itemscope manquant sur Answer",
+        "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+        "Élément avec itemprop=\"text\" manquant pour la réponse",
+        "Question détectée en format sémantique - manque les données structurées schema.org",
+        "Attribut itemscope manquant sur Question",
+        "Attribut itemprop=\"mainEntity\" manquant sur Question",
+        "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+        "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+        "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+        "Attribut itemscope manquant sur Answer",
+        "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+        "Élément avec itemprop=\"text\" manquant pour la réponse",
+        "Question détectée en format sémantique - manque les données structurées schema.org",
+        "Attribut itemscope manquant sur Question",
+        "Attribut itemprop=\"mainEntity\" manquant sur Question",
+        "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+        "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+        "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+        "Attribut itemscope manquant sur Answer",
+        "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+        "Élément avec itemprop=\"text\" manquant pour la réponse",
+        "Question détectée en format sémantique - manque les données structurées schema.org",
+        "Attribut itemscope manquant sur Question",
+        "Attribut itemprop=\"mainEntity\" manquant sur Question",
+        "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+        "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+        "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+        "Attribut itemscope manquant sur Answer",
+        "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+        "Élément avec itemprop=\"text\" manquant pour la réponse",
+        "Question détectée en format sémantique - manque les données structurées schema.org",
+        "Attribut itemscope manquant sur Question",
+        "Attribut itemprop=\"mainEntity\" manquant sur Question",
+        "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+        "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+        "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+        "Attribut itemscope manquant sur Answer",
+        "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+        "Élément avec itemprop=\"text\" manquant pour la réponse",
+        "Question détectée en format sémantique - manque les données structurées schema.org",
+        "Attribut itemscope manquant sur Question",
+        "Attribut itemprop=\"mainEntity\" manquant sur Question",
+        "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+        "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+        "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+        "Attribut itemscope manquant sur Answer",
+        "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+        "Élément avec itemprop=\"text\" manquant pour la réponse",
+        "Question détectée en format sémantique - manque les données structurées schema.org",
+        "Attribut itemscope manquant sur Question",
+        "Attribut itemprop=\"mainEntity\" manquant sur Question",
+        "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+        "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+        "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+        "Attribut itemscope manquant sur Answer",
+        "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+        "Élément avec itemprop=\"text\" manquant pour la réponse"
+      ]
+    }
+  ],
   "details": [
     {
       "url": "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/assurance.html",
@@ -89,7 +162,7 @@
         "schema": 6,
         "semantic": 0
       },
-      "timestamp": "2025-07-25T14:15:38.940Z"
+      "timestamp": "2025-08-05T14:44:09.595Z"
     },
     {
       "url": "https://www.cofidis.fr/fr/credit-auto/credit-voiture-electrique/combien-emprunter.html",
@@ -256,7 +329,7 @@
         "schema": 0,
         "semantic": 7
       },
-      "timestamp": "2025-07-25T14:15:40.751Z"
+      "timestamp": "2025-08-05T14:44:10.854Z"
     }
   ]
 }

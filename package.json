@@ -11,7 +11,9 @@
   "dependencies": {
     "axios": "^1.6.0",
     "cheerio": "^1.0.0-rc.12",
-    "puppeteer": "^21.5.0"
+    "npm": "^11.5.2",
+    "puppeteer": "^21.5.0",
+    "start": "^5.1.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0"
