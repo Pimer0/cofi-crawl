@@ -3,8 +3,19 @@ import QACrawler from './utils/utilsScraper.js';
 const main = async () => {
   try {
     const urls = [
+      "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/financer-voilier.html",
+      "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/acheter-bateau-pour-vivre.html",
+      "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/assurance.html",
+      "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/choisir-loa-credit.html",
+      "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/financer-bateau-etranger.html",
+      "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/renovation-bateau.html",
+      "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/financement-mariage.html",
+      "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/depenses-mariage.html",
+      "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/mariage-etranger.html",
+      "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/determiner-montant-mariage.html",
+      "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/cout-total-credit-mariage.html",
+      "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/mariage-reporte.html",
       "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/assurance.html",
-      "https://www.cofidis.fr/fr/credit-auto/credit-voiture-electrique/combien-emprunter.html",
     ];
     
     const crawler = new QACrawler();

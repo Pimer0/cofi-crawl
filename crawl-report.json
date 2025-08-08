@@ -1,14 +1,24 @@
 {
   "summary": {
-    "totalUrls": 2,
-    "urlsWithErrors": 1,
-    "totalQuestions": 13,
-    "totalValidQuestions": 6,
-    "totalInvalidQuestions": 7
+    "totalUrls": 13,
+    "urlsWithErrors": 2,
+    "totalQuestions": 66,
+    "totalValidQuestions": 57,
+    "totalInvalidQuestions": 9
   },
   "koUrls": [
     {
-      "url": "https://www.cofidis.fr/fr/credit-auto/credit-voiture-electrique/combien-emprunter.html",
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/financer-voilier.html",
+      "notValidQuestions": 2,
+      "totalQuestions": 5,
+      "issues": [
+        "Aucune <div> immédiatement après le <h2>, donc réponse probablement manquante",
+        "Aucune <div> immédiatement après le <h2>, donc réponse probablement manquante",
+        "Élément Answer manquant"
+      ]
+    },
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/financer-bateau-etranger.html",
       "notValidQuestions": 7,
       "totalQuestions": 7,
       "issues": [
@@ -79,6 +89,955 @@
     }
   ],
   "details": [
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/financer-voilier.html",
+      "totalQuestions": 5,
+      "validQuestions": 3,
+      "notValidQuestions": 2,
+      "questions": [
+        {
+          "index": 1,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Combien coûte un voilier ?",
+            "questionElement": "h2",
+            "answerText": "Le coût d’un voilier dépend de plusieurs critères que sont la taille et le type (monocoque ou catamaran, par exemple), l’équipement à bord (électronique, voiles, confort intérieur), le moteur compléme...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 2,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Le crédit bateau classique, une solution pour financer votre voilier",
+            "questionElement": "h2",
+            "answerText": "Plusieurs solutions s’offrent à vous si vous souhaitez acheter un voilier sans puiser intégralement dans votre épargne, dont le crédit bateau qui est la solution la plus utilisée.\n          Il s’agit ...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 3,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "La LOA (location avec option d’achat)",
+            "questionElement": "h2",
+            "answerText": "Une LOA représente une alternative intéressante, notamment pour un bateau neuf. Vous louez le voilier sur une durée déterminée et avez la possibilité de l’acheter à la fin du contrat. Cette solution e...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 4,
+          "type": "schema",
+          "isValid": false,
+          "issues": [
+            "Aucune <div> immédiatement après le <h2>, donc réponse probablement manquante"
+          ],
+          "structure": {
+            "questionTitle": "Les offres combinées ou sur mesure",
+            "questionElement": "h2",
+            "answerText": "Afin d’obtenir les meilleures conditions de financement, la première étape consiste à bien soigner votre dossier de financement avec des revenus stables, un endettement maîtrisé, une capacité de rembo...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 5,
+          "type": "schema",
+          "isValid": false,
+          "issues": [
+            "Aucune <div> immédiatement après le <h2>, donc réponse probablement manquante",
+            "Élément Answer manquant"
+          ],
+          "structure": {
+            "questionTitle": "Qu’en est-il de l’assurance d’un voilier ?",
+            "questionElement": "h2"
+          }
+        }
+      ],
+      "detectionMethods": {
+        "schema": 5,
+        "semantic": 0
+      },
+      "timestamp": "2025-08-08T08:24:08.332Z"
+    },
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/acheter-bateau-pour-vivre.html",
+      "totalQuestions": 3,
+      "validQuestions": 3,
+      "notValidQuestions": 0,
+      "questions": [
+        {
+          "index": 1,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quel type de bateau choisir pour y vivre ?",
+            "questionElement": "h2",
+            "answerText": "Avant toute chose, prenez le temps de définir le type d’embarcation le plus adapté à votre usage :\n          \n            Un voilier est parfait pour les amateurs de plaisance, car il est souvent moin...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 2,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quel budget prévoir pour vivre à bord ?",
+            "questionElement": "h2",
+            "answerText": "Mise à part le montant de votre achat, vivre sur un bateau implique des frais d’entretien réguliers au niveau du moteur, des voiles ou encore de la peinture à refaire. Pensez également que vous aurez ...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 3,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment obtenir un bon taux ?",
+            "questionElement": "h2",
+            "answerText": "Comme tout financement, le taux dépend de plusieurs critères que sont votre situation financière et professionnelle, votre engagement en termes d’apport et de garanties ainsi que le type de prêt et sa...",
+            "answerElement": "div"
+          }
+        }
+      ],
+      "detectionMethods": {
+        "schema": 3,
+        "semantic": 0
+      },
+      "timestamp": "2025-08-08T08:24:09.978Z"
+    },
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/assurance.html",
+      "totalQuestions": 5,
+      "validQuestions": 5,
+      "notValidQuestions": 0,
+      "questions": [
+        {
+          "index": 1,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment fonctionnent le crédit bateau et l’assurance ?",
+            "questionElement": "h2",
+            "answerText": "Un crédit pour l’achat d’un bateau fonctionne de la même manière qu’un prêt personnel ou un prêt affecté à un achat bien défini. Il permet de financer tout ou partie du montant de l’embarcation, en s’...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 2,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quelles garanties peut inclure une assurance de prêt bateau ?",
+            "questionElement": "h2",
+            "answerText": "Les contrats peuvent être plus ou moins complets, mais ils couvrent la plupart du temps les éléments suivants.\n          \n                \n                    \n                        Garantie\n       ...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 3,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment savoir si l’assurance est incluse ?",
+            "questionElement": "h2",
+            "answerText": "Une assurance emprunteur n’est pas automatiquement incluse dans tous les prêts bateaux. Elle est incluse dans l’offre si elle fait partie intégrante du prêt. Son coût est alors ajouté aux mensualités....",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 4,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quel est l’impact sur le coût global du financement ?",
+            "questionElement": "h2",
+            "answerText": "L’assurance a bien sûr un impact sur le coût total de votre financement. Pour cette raison, prenez le temps de comparer les solutions personnalisées disponibles sur le marché. Parfois, une offre avec ...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 5,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quelles sont les autres assurances à prévoir pour un bateau ?",
+            "questionElement": "h2",
+            "answerText": "En plus de l’assurance de prêt, n’oubliez pas l’assurance nautique. Celle-ci couvre notamment :\n          \n          Les dommages à l’embarcation ;\n          Votre responsabilité civile en cas d’incid...",
+            "answerElement": "div"
+          }
+        }
+      ],
+      "detectionMethods": {
+        "schema": 5,
+        "semantic": 0
+      },
+      "timestamp": "2025-08-08T08:24:11.509Z"
+    },
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/choisir-loa-credit.html",
+      "totalQuestions": 5,
+      "validQuestions": 5,
+      "notValidQuestions": 0,
+      "questions": [
+        {
+          "index": 1,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quelles sont les différences entre la LOA et le crédit bateau ?",
+            "questionElement": "h2",
+            "answerText": "Le crédit bateau demeure une solution classique, proposée par une banque ou un organisme spécialisé. Celui-ci vous permet d’acheter un bateau neuf ou d’occasion en devenant immédiatement propriétaire ...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 2,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quels sont les avantages d’une LOA bateau ?",
+            "questionElement": "h2",
+            "answerText": "Une LOA bateau peut présenter plusieurs avantages, selon votre situation, dont le fait de devoir disposer d’un apport initial réduit, que la TVA soit sur les loyers et non pas sur le prix total ou enc...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 3,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Pourquoi choisir le crédit bateau ?",
+            "questionElement": "h2",
+            "answerText": "Si vous optez pour un crédit bateau, vous êtes propriétaire dès le début. Autre point fort, vous disposez d’une meilleure maîtrise de votre budget tout au long de votre financement. De plus, comme vou...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 4,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quels sont les points d’importance pour votre financement bateau ?",
+            "questionElement": "h2",
+            "answerText": "Avant de vous engager dans un financement, quel qu’il soit, évaluez votre capacité de remboursement, l’usage réel que vous allez faire du bateau (en été uniquement ou pour des sorties plus régulières)...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 5,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "À quoi faire attention avant de vous engager ?",
+            "questionElement": "h2",
+            "answerText": "Lisez bien les conditions du contrat LOA, y compris la durée, le loyer, l’option d’achat ainsi que les frais annexes. Ne manquez pas de comparer le coût total des deux formules : en ajoutant les loyer...",
+            "answerElement": "div"
+          }
+        }
+      ],
+      "detectionMethods": {
+        "schema": 5,
+        "semantic": 0
+      },
+      "timestamp": "2025-08-08T08:24:12.998Z"
+    },
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/financer-bateau-etranger.html",
+      "totalQuestions": 7,
+      "validQuestions": 0,
+      "notValidQuestions": 7,
+      "questions": [
+        {
+          "index": 1,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Financer un bateau à l'étranger : c'est possible !",
+            "questionElement": "h2",
+            "answerText": "Bonne nouvelle : il est tout à fait '. Que vous optiez pour un modèle neuf ou d'occasion, l'important demeure de bien préparer votre dossier et de choisir le bon organisme de crédit.Les établissements...",
+            "answerElement": "mixed-content"
+          }
+        },
+        {
+          "index": 2,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Quels types de bateaux sont concernés ?",
+            "questionElement": "h2",
+            "answerText": "Voiliers, yachts, bateaux à moteur... Tous les types de navires peuvent être concernés. Ce qui compte, c'est avant tout la nature du projet et la solidité de votre financement. Que vous souhaitiez nav...",
+            "answerElement": "mixed-content"
+          }
+        },
+        {
+          "index": 3,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Quelles sont les étapes clés de votre future acquisition ?",
+            "questionElement": "h2",
+            "answerText": "Trouvez le bon vendeur : vous pouvez acheter votre bateau à un professionnel ou à un particulier. Un professionnel vous offrira probablement davantage de garanties et vous aidera à construire votre do...",
+            "answerElement": "mixed-content"
+          }
+        },
+        {
+          "index": 4,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Qu'en est-il des frais annexes et des obligations fiscales ?",
+            "questionElement": "h2",
+            "answerText": "Un achat à l'étranger peut parfois sembler plus avantageux sur le plan financier. Cependant tenez compte de certains éléments tels que :\n        La TVA : si le bateau est acheté neuf ou hors UE, vous ...",
+            "answerElement": "mixed-content"
+          }
+        },
+        {
+          "index": 5,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Tableau récapitulatif : ce que vous devez prévoir",
+            "questionElement": "h2",
+            "answerText": "Élément\n                    Obligatoire ?\n                    Comment l'obtenir ?\n                \n            \n            \n                \n                    Acte de vente\n                    Oui\n...",
+            "answerElement": "mixed-content"
+          }
+        },
+        {
+          "index": 6,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Quelle est l'importance de l'immatriculation et du pavillon ?",
+            "questionElement": "h2",
+            "answerText": "Le pavillon d'un bateau détermine le droit applicable, les règles de sécurité, mais aussi les obligations fiscales. Un pavillon européen est souvent recommandé si vous comptez naviguer dans l'UE. Tout...",
+            "answerElement": "mixed-content"
+          }
+        },
+        {
+          "index": 7,
+          "type": "semantic",
+          "isValid": false,
+          "issues": [
+            "Question détectée en format sémantique - manque les données structurées schema.org",
+            "Attribut itemscope manquant sur Question",
+            "Attribut itemprop=\"mainEntity\" manquant sur Question",
+            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
+            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
+            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
+            "Attribut itemscope manquant sur Answer",
+            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
+            "Élément avec itemprop=\"text\" manquant pour la réponse"
+          ],
+          "structure": {
+            "questionTitle": "Comment financer un projet à l'international ?",
+            "questionElement": "h2",
+            "answerText": "Pour réaliser ce type d'acquisition, vous avez sans doute besoin d'un crédit à la consommation adapté. N'oubliez pas de prendre en compte le coût total du bateau, des taxes, du transport, de l'immatri...",
+            "answerElement": "mixed-content"
+          }
+        }
+      ],
+      "detectionMethods": {
+        "schema": 0,
+        "semantic": 7
+      },
+      "timestamp": "2025-08-08T08:24:14.445Z"
+    },
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-bateau/renovation-bateau.html",
+      "totalQuestions": 7,
+      "validQuestions": 7,
+      "notValidQuestions": 0,
+      "questions": [
+        {
+          "index": 1,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Un crédit pour rénover un bateau : est-ce possible ?",
+            "questionElement": "h2",
+            "answerText": "Chez Cofidis, nous proposons différents types de crédit dont le crédit bateau. Avec celui-ci, vous avez la possibilité de financer l’achat d’un bateau, mais pas seulement. Vous devez savoir qu’avec un...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 2,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Est-ce que le crédit bateau peut servir à financer l’aménagement de mon bateau ?",
+            "questionElement": "h2",
+            "answerText": "Si vous possédez déjà un bateau et que vous aimeriez en faire votre résidence principale ou secondaire, il est tout à fait possible que vous ayez recours à un crédit pour financer ces travaux. Selon v...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 3,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quels sont les éléments qui nécessitent une rénovation sur un bateau ?",
+            "questionElement": "h2",
+            "answerText": "Tout dépend de votre projet : si vous souhaitez y vivre, pensez à vérifier l’état des systèmes électriques et électroniques. L’aspect aménagement et décoratif va aussi avoir son importance, et son coû...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 4,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quelles solutions de financement existe-t-il pour rénover un bateau ?",
+            "questionElement": "h2",
+            "answerText": "Faire un crédit bateau n’est pas le seul moyen de rénover son bateau, il existe d’autres solutions qui vous permettront de réaliser votre projet.\n          \n          \n              \n                 ...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 5,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment financer une péniche ?",
+            "questionElement": "h2",
+            "answerText": "Vous rêvez d’acheter et de rénover une péniche pour y vivre ou voyager à votre rythme ? C’est un projet passionnant, mais qui implique des coûts élevés. Il faut prendre en compte non seulement le prix...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 6,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quels documents fournir pour faire une demande de prêt bateau ?Comment trouver la meilleure solution selon votre projet ?",
+            "questionElement": "h2",
+            "answerText": "Afin d’obtenir un crédit, il vous faudra présenter un dossier complet comprenant votre situation financière, vos revenus, un justificatif de domicile et d’identité. Un formulaire de demande de contrat...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 7,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment trouver la meilleure solution selon votre projet ?",
+            "questionElement": "h2",
+            "answerText": "Chaque projet est unique : n’hésitez pas à comparer les offres ainsi que les types de financement avant de vous lancer. Si votre situation le permet, vous pourriez même envisager un financement mixte....",
+            "answerElement": "div"
+          }
+        }
+      ],
+      "detectionMethods": {
+        "schema": 7,
+        "semantic": 0
+      },
+      "timestamp": "2025-08-08T08:24:15.906Z"
+    },
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/financement-mariage.html",
+      "totalQuestions": 4,
+      "validQuestions": 4,
+      "notValidQuestions": 0,
+      "questions": [
+        {
+          "index": 1,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment estimer son budget de mariage ?",
+            "questionElement": "h2",
+            "answerText": "Avant de parler de financement, vous devez avant tout construire un budget réaliste.\n  Pour ce faire, listez bien tous les postes de dépense, en tenant compte de ce que votre couple souhaite vraiment ...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 2,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quels sont les différents types de financement pour un mariage ?",
+            "questionElement": "h2",
+            "answerText": "Il existe plusieurs moyens de financer votre mariage. En fonction de votre situation et de vos objectifs,\n  vous pouvez combiner plusieurs options :\n\n\nUne épargne personnelle\n\n  C'est la solution la p...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 3,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment fonctionne un crédit mariage ?",
+            "questionElement": "h2",
+            "answerText": "Un crédit pour un mariage sous la forme d’un crédit consommation se distingue par sa souplesse.\n  Vous choisissez :\n\n\n  Le montant à emprunter (en fonction de vos besoins et de votre capacité d’emprun...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 4,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment bien préparer sa demande de financement ?",
+            "questionElement": "h2",
+            "answerText": "Avant de faire votre demande de crédit, regroupez les documents nécessaires à la constitution de votre dossier :\n\n\n  Pièces d'identité ;\n  Justificatif de domicile ;\n  Justificatifs de revenus ;\n  Est...",
+            "answerElement": "div"
+          }
+        }
+      ],
+      "detectionMethods": {
+        "schema": 4,
+        "semantic": 0
+      },
+      "timestamp": "2025-08-08T08:24:17.282Z"
+    },
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/depenses-mariage.html",
+      "totalQuestions": 4,
+      "validQuestions": 4,
+      "notValidQuestions": 0,
+      "questions": [
+        {
+          "index": 1,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quels sont les postes de dépenses qui peuvent être financés par un crédit mariage ?",
+            "questionElement": "h2",
+            "answerText": "Un mariage peut très vite être coûteux, et cela s’explique par les nombreux postes de dépenses que l’on retrouve. C’est pourquoi, pour lisser le montant total du mariage, vous pouvez faire un crédit q...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 2,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment financer ces dépenses ?",
+            "questionElement": "h2",
+            "answerText": "Un crédit mariage correspond généralement à un prêt personnel, qui est proposé par une banque ou un organisme spécialisé. Il peut être utilisé pour financer tout ou partie des dépenses du mariage, en ...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 3,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quels sont les éléments à prendre en compte avant d’emprunter ?",
+            "questionElement": "h2",
+            "answerText": "Avant de vous engager, établissez un dossier complet qui comprend notamment :\n\n    Vos revenus ;\n    Vos charges mensuelles ;\n    Les justificatifs des principaux postes de dépenses ;\n    Un justifica...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 4,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Existe-t-il des solutions sur mesure ?",
+            "questionElement": "h2",
+            "answerText": "N’hésitez pas à vous renseigner, votre conseiller vous proposera une ou plusieurs solutions selon votre situation et votre budget. En effet, certains prêts incluent une assurance emprunteur, d’autres ...",
+            "answerElement": "div"
+          }
+        }
+      ],
+      "detectionMethods": {
+        "schema": 4,
+        "semantic": 0
+      },
+      "timestamp": "2025-08-08T08:24:19.177Z"
+    },
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/mariage-etranger.html",
+      "totalQuestions": 5,
+      "validQuestions": 5,
+      "notValidQuestions": 0,
+      "questions": [
+        {
+          "index": 1,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quels prêts envisager afin d’organiser un mariage à l’étranger ?",
+            "questionElement": "h2",
+            "answerText": "Bonne nouvelle : vous pouvez souscrire un crédit afin de couvrir les frais liés à votre mariage à l’étranger. \n        Il s’agira généralement d’un emprunt personnel non affecté, proposé par votre ban...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 2,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quels sont les éléments à prévoir dans votre demande ?",
+            "questionElement": "h2",
+            "answerText": "Afin de faire une demande de financement, vous devez présenter un dossier complet. Celui-ci comprendra notamment :\n\nVos pièces d’identité ;\nVos justificatifs de revenus ;\nVos relevés bancaires ;\nUn ju...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 3,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quels sont les éléments à prendre en compte avant de souscrire ?",
+            "questionElement": "h2",
+            "answerText": "Comme pour tout emprunt, plusieurs éléments sont à considérer :\n\nLe taux d’intérêt proposé pour le crédit.\nLa durée de votre futur prêt.\nLes conditions de remboursement anticipé et les éventuels frais...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 4,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Pour quels types de dépenses peut-il être intéressant de contracter un crédit pour un mariage à l’étranger ?",
+            "questionElement": "h2",
+            "answerText": "Dans le cas d’un mariage à l’étranger, les postes de dépense peuvent être plus importants, et il peut également y avoir plus de facteurs qui entrent en compte.\nVoici une estimation des dépenses qui pe...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 5,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quelles sont les démarches à faire afin d’organiser un mariage à l’étranger ?",
+            "questionElement": "h2",
+            "answerText": "Au-delà du financement, organiser une cérémonie à l’étranger implique aussi des démarches administratives. Vous devrez vous renseigner sur les règles en vigueur\ndans le pays choisi, fournir certains j...",
+            "answerElement": "div"
+          }
+        }
+      ],
+      "detectionMethods": {
+        "schema": 5,
+        "semantic": 0
+      },
+      "timestamp": "2025-08-08T08:24:20.800Z"
+    },
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/determiner-montant-mariage.html",
+      "totalQuestions": 4,
+      "validQuestions": 4,
+      "notValidQuestions": 0,
+      "questions": [
+        {
+          "index": 1,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment bien anticiper un budget prévisionnel ?",
+            "questionElement": "h2",
+            "answerText": "La chose la plus importante demeure de construire un budget réaliste, en listant les postes de dépense. Voici un tableau type pour vous aider :\n\n\n\n.simpleTable td {\n    border: 1px solid var(--main-co...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 2,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment évaluer le montant de mon apport personnel ?",
+            "questionElement": "h2",
+            "answerText": "Le montant de votre crédit dépendra directement des ressources que vous pouvez mobiliser. Avez-vous des fonds personnels que vous pouvez utiliser ? Avez-vous reçu des aides de la part de votre famille...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 3,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment bien prendre en compte la capacité de remboursement ?",
+            "questionElement": "h2",
+            "answerText": "Avant de fixer une somme pour votre crédit mariage, il faut évaluer vos capacités de remboursement. On estime que votre taux d’endettement ne doit pas dépasser 33% de vos revenus mensuels nets. Et afi...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 4,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment choisir la durée et le type de crédit ?",
+            "questionElement": "h2",
+            "answerText": "Un crédit mariage est un crédit à la consommation, non affecté (vous êtes libre d’utiliser les fonds empruntés comme vous le désirez). Si vous avez la possibilité de choisir une durée de 12 à 60 mois ...",
+            "answerElement": "div"
+          }
+        }
+      ],
+      "detectionMethods": {
+        "schema": 4,
+        "semantic": 0
+      },
+      "timestamp": "2025-08-08T08:24:24.998Z"
+    },
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/cout-total-credit-mariage.html",
+      "totalQuestions": 5,
+      "validQuestions": 5,
+      "notValidQuestions": 0,
+      "questions": [
+        {
+          "index": 1,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Qu’est-ce qui compose le coût total d’un crédit ?",
+            "questionElement": "h2",
+            "answerText": "Le coût total d’un crédit ne se limite pas à la somme que vous souhaitez emprunter. Il comprend :\n\n  Le montant emprunté (le capital).\n  Les intérêts, calculés selon le taux appliqué.\n  Les éventuels ...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 2,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quels sont les éléments qui ont un impact sur le coût ?",
+            "questionElement": "h2",
+            "answerText": "Plusieurs facteurs vont avoir un impact sur le coût du crédit. C’est pourquoi, avant de faire votre demande de crédit, nous vous conseillons donc de comparer et de modifier ces différents points pour ...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 3,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Faut-il comparer avant de choisir votre crédit ?",
+            "questionElement": "h2",
+            "answerText": "Avant de signer un contrat de crédit, prenez le temps de comparer plusieurs offres. Regardez le taux, bien sûr, mais aussi le TAEG, les frais, la souplesse en cas de report, ou encore les pénalités en...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 4,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quels projets peut-on financer avec un crédit mariage ?",
+            "questionElement": "h2",
+            "answerText": "Un prêt personnel dédié au mariage peut être utilisé pour tous les postes de dépense de votre futur évènement :\n\n  Pour la réception : réservation de la salle, service du traiteur, mobilier, boissons,...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 5,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment bien optimiser votre crédit ?",
+            "questionElement": "h2",
+            "answerText": "Faites appel à un conseiller qui vous proposera une solution adaptée à vos capacités ainsi qu’à vos projets. Ne manquez pas également de regrouper vos futures dépenses dans un dossier clair afin de bi...",
+            "answerElement": "div"
+          }
+        }
+      ],
+      "detectionMethods": {
+        "schema": 5,
+        "semantic": 0
+      },
+      "timestamp": "2025-08-08T08:24:27.413Z"
+    },
+    {
+      "url": "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/mariage-reporte.html",
+      "totalQuestions": 6,
+      "validQuestions": 6,
+      "notValidQuestions": 0,
+      "questions": [
+        {
+          "index": 1,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Quelles sont les implications sur un crédit lorsqu’un mariage est reporté ?",
+            "questionElement": "h2",
+            "answerText": "Un report de mariage peut survenir pour de nombreuses raisons : souci de santé, problème familial, aléa logistique ou encore volonté de revoir ses projets à deux. Si vous avez déjà obtenu un crédit, t...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 2,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Que faire selon le moment du report ?",
+            "questionElement": "h2",
+            "answerText": "Moment du report\n        Solution envisageable\n    \n    \n        Avant l'utilisation des fonds\n        Rétractation ou gel possible\n    \n    \n        Après déblocage des fonds\n        Négociation avec...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 3,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Qu’en est-il du crédit en cas de changement de situation personnelle ?",
+            "questionElement": "h2",
+            "answerText": "Parfois, derrière le report se cache un bouleversement plus profond : séparation, remise en question de votre partenaire. Dans ce cas, il est primordial de faire le point sur les droits et les respons...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 4,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Peut-on suspendre un crédit en cas de report ?",
+            "questionElement": "h2",
+            "answerText": "Oui, certaines situations permettent d'envisager un report de mensualités. Cela peut faire partie des clauses prévues par votre contrat, ou être accordé à titre exceptionnel par votre banque. Ne manqu...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 5,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment revoir son budget et son projet ?",
+            "questionElement": "h2",
+            "answerText": "Un report, aussi frustrant soit-il, peut être l’occasion de revoir son budget, d’optimiser certains postes de dépense ou de souhaiter un projet plus en phase avec la nouvelle réalité. Vous pouvez égal...",
+            "answerElement": "div"
+          }
+        },
+        {
+          "index": 6,
+          "type": "schema",
+          "isValid": true,
+          "issues": [],
+          "structure": {
+            "questionTitle": "Comment anticiper pour éviter les frais supplémentaires ?",
+            "questionElement": "h2",
+            "answerText": "À savoir, certains prêts prévoient des frais en cas de remboursement anticipé. Si vous souhaitez solder votre crédit en raison d’un changement de vie ou de partenaire, vérifiez bien les conditions pré...",
+            "answerElement": "div"
+          }
+        }
+      ],
+      "detectionMethods": {
+        "schema": 6,
+        "semantic": 0
+      },
+      "timestamp": "2025-08-08T08:24:29.017Z"
+    },
     {
       "url": "https://www.cofidis.fr/fr/pret-personnel/credit-mariage/assurance.html",
       "totalQuestions": 6,
@@ -162,174 +1121,7 @@
         "schema": 6,
         "semantic": 0
       },
-      "timestamp": "2025-08-05T14:44:09.595Z"
-    },
-    {
-      "url": "https://www.cofidis.fr/fr/credit-auto/credit-voiture-electrique/combien-emprunter.html",
-      "totalQuestions": 7,
-      "validQuestions": 0,
-      "notValidQuestions": 7,
-      "questions": [
-        {
-          "index": 1,
-          "type": "semantic",
-          "isValid": false,
-          "issues": [
-            "Question détectée en format sémantique - manque les données structurées schema.org",
-            "Attribut itemscope manquant sur Question",
-            "Attribut itemprop=\"mainEntity\" manquant sur Question",
-            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
-            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
-            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
-            "Attribut itemscope manquant sur Answer",
-            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
-            "Élément avec itemprop=\"text\" manquant pour la réponse"
-          ],
-          "structure": {
-            "questionTitle": "Comment évaluer le prix de sa voiture électrique ?",
-            "questionElement": "h2",
-            "answerText": "Avant de déterminer combien emprunter, n’oubliez pas de bien prendre en compte tous les éléments liés au coût total de votre voiture.\n    Le prix du véhicule : les modèles électriques varient entre 15...",
-            "answerElement": "mixed-content"
-          }
-        },
-        {
-          "index": 2,
-          "type": "semantic",
-          "isValid": false,
-          "issues": [
-            "Question détectée en format sémantique - manque les données structurées schema.org",
-            "Attribut itemscope manquant sur Question",
-            "Attribut itemprop=\"mainEntity\" manquant sur Question",
-            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
-            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
-            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
-            "Attribut itemscope manquant sur Answer",
-            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
-            "Élément avec itemprop=\"text\" manquant pour la réponse"
-          ],
-          "structure": {
-            "questionTitle": "Quelles sont les différentes solutions de financement d’une voiture électrique ?",
-            "questionElement": "h2",
-            "answerText": "Pour vous procurer une voiture électrique, il existe plusieurs options dont les principales sont l’achat par le biais d’un crédit à la consommation, ou alors la location (LOA ou LLD). Deux grandes opt...",
-            "answerElement": "mixed-content"
-          }
-        },
-        {
-          "index": 3,
-          "type": "semantic",
-          "isValid": false,
-          "issues": [
-            "Question détectée en format sémantique - manque les données structurées schema.org",
-            "Attribut itemscope manquant sur Question",
-            "Attribut itemprop=\"mainEntity\" manquant sur Question",
-            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
-            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
-            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
-            "Attribut itemscope manquant sur Answer",
-            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
-            "Élément avec itemprop=\"text\" manquant pour la réponse"
-          ],
-          "structure": {
-            "questionTitle": "Quelles sont les caractéristiques du crédit voiture électrique Cofidis ?",
-            "questionElement": "h2",
-            "answerText": "Le crédit pour une voiture électrique est un prêt classique qui permet de devenir propriétaire immédiatement. Le montant emprunté est basé sur le prix total du véhicule et la durée de remboursement mo...",
-            "answerElement": "mixed-content"
-          }
-        },
-        {
-          "index": 4,
-          "type": "semantic",
-          "isValid": false,
-          "issues": [
-            "Question détectée en format sémantique - manque les données structurées schema.org",
-            "Attribut itemscope manquant sur Question",
-            "Attribut itemprop=\"mainEntity\" manquant sur Question",
-            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
-            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
-            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
-            "Attribut itemscope manquant sur Answer",
-            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
-            "Élément avec itemprop=\"text\" manquant pour la réponse"
-          ],
-          "structure": {
-            "questionTitle": "Est-ce que c’est intéressant de faire une LOA pour une voiture électrique ?",
-            "questionElement": "h2",
-            "answerText": "Si vous ne souhaitez pas faire de crédit en ligne pour vous acheter votre voiture électrique, vous pouvez très bien faire une LOA. La location avec option d’achat permet de rouler en voiture électriqu...",
-            "answerElement": "mixed-content"
-          }
-        },
-        {
-          "index": 5,
-          "type": "semantic",
-          "isValid": false,
-          "issues": [
-            "Question détectée en format sémantique - manque les données structurées schema.org",
-            "Attribut itemscope manquant sur Question",
-            "Attribut itemprop=\"mainEntity\" manquant sur Question",
-            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
-            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
-            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
-            "Attribut itemscope manquant sur Answer",
-            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
-            "Élément avec itemprop=\"text\" manquant pour la réponse"
-          ],
-          "structure": {
-            "questionTitle": "Comment définir le montant à emprunter selon vos finances ?",
-            "questionElement": "h2",
-            "answerText": "Le montant que vous pouvez emprunter dépend notamment de vos revenus et de votre taux d’endettement : les banques acceptent en général un endettement allant jusqu’à 33 % de vos revenus maximum.Prenons...",
-            "answerElement": "mixed-content"
-          }
-        },
-        {
-          "index": 6,
-          "type": "semantic",
-          "isValid": false,
-          "issues": [
-            "Question détectée en format sémantique - manque les données structurées schema.org",
-            "Attribut itemscope manquant sur Question",
-            "Attribut itemprop=\"mainEntity\" manquant sur Question",
-            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
-            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
-            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
-            "Attribut itemscope manquant sur Answer",
-            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
-            "Élément avec itemprop=\"text\" manquant pour la réponse"
-          ],
-          "structure": {
-            "questionTitle": "Quelles aides existent pour l’achat d’une voiture électrique",
-            "questionElement": "h2",
-            "answerText": "En plus d’un crédit électrique, certaines aides financières peuvent réduire le montant à emprunter. Pour exemple, le bonus écologique est une aide gouvernementale visant à encourager l'achat de véhicu...",
-            "answerElement": "mixed-content"
-          }
-        },
-        {
-          "index": 7,
-          "type": "semantic",
-          "isValid": false,
-          "issues": [
-            "Question détectée en format sémantique - manque les données structurées schema.org",
-            "Attribut itemscope manquant sur Question",
-            "Attribut itemprop=\"mainEntity\" manquant sur Question",
-            "Attribut itemtype=\"https://schema.org/Question\" manquant sur Question",
-            "Élément avec itemprop=\"name\" manquant pour le titre de la question",
-            "Élément Answer avec itemtype=\"https://schema.org/Answer\" manquant",
-            "Attribut itemscope manquant sur Answer",
-            "Attribut itemprop=\"acceptedAnswer\" manquant sur Answer",
-            "Élément avec itemprop=\"text\" manquant pour la réponse"
-          ],
-          "structure": {
-            "questionTitle": "Comment bien choisir son crédit pour une voiture électrique ?",
-            "questionElement": "h2",
-            "answerText": "Avant de signer un contrat de crédit, ne manquez pas de prendre en compte ces éléments :\n    Comparez plusieurs offres afin de trouver le meilleur taux.\n    Vérifiez bien les conditions de rembourseme...",
-            "answerElement": "mixed-content"
-          }
-        }
-      ],
-      "detectionMethods": {
-        "schema": 0,
-        "semantic": 7
-      },
-      "timestamp": "2025-08-05T14:44:10.854Z"
+      "timestamp": "2025-08-08T08:24:30.859Z"
     }
   ]
 }
